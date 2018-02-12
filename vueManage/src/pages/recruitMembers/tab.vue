@@ -60,7 +60,7 @@
     import dataTable from '@/pages/recruitMembers/table-data.vue'
     import fileTable from '@/pages/recruitMembers/table-file.vue'
     import allFile from '@/components/recruitMembers/affiliatedFile/allFIleCom.vue'
-
+    //测试版wxc012 v1.0
     export default {
         name:'recruit-tab',
         data(){
