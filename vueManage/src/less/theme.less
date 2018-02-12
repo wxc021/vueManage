@@ -1,0 +1,47 @@
+@import '~iview/src/styles/index.less';
+
+// 下面是要覆盖的变量，例如：
+@primary-color: #e3392c;
+@table-td-hover-bg            : #d0e7ff;
+@table-td-highlight-bg        : #d0e7ff;
+@btn-ghost-bg                 : #fff;
+.vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ivu-modal {
+    top: 0;
+  }
+}
+body {
+	color: #222;
+  font-size: 14px;
+}
+.ivu-table th, .ivu-table td{
+  height: 32px;
+}
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder, .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+  font-size: 14px;
+}
+.ivu-btn, .ivu-checkbox-wrapper, .ivu-table, .ivu-input, .ivu-dropdown-item, .ivu-form-item-label {
+  font-size: 14px !important;
+}
+.ivu-select-item {
+  font-size: 14px !important;
+}
+input[type="text"]:disabled {
+	background-color: #f9f9f9;
+}
+.ivu-row::after {
+	content: '';
+	overflow: hidden;
+	display: block;
+}
+.ivu-form-item-error-tip{
+  padding-top: 3px;
+}
+
+// 表格歌行变色
+.ivu-table-stripe .ivu-table-body tr:nth-child(2n) td, .ivu-table-stripe .ivu-table-fixed-body tr:nth-child(2n) td{
+  background-color: #fff;
+}
