@@ -20,7 +20,7 @@ export default {
   },
   crop: {
     type: [String, Boolean],
-    default: ''
+    default: '',
   },
   cropBtn: {
     type: Object,
